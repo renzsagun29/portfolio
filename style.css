@@ -11,7 +11,7 @@ html,body {
 }
 
 a {
-    color: #333;
+    color: #4267B2;
     text-decoration: none;
 }
 
@@ -29,50 +29,49 @@ h1,h2,h3 {
 }
 
 .text-primary {
-    color: #f7c08a;
+    color: black;
 }
 
 .lead {
     font-size: 20px;
-    color: #f4f4f4;
-    background: #333;
-    opacity: 0.9;
+    color: black;
+    background: white;
+    opacity: 0.8;
 }
 
 .btn {
     display: inline-block;
     font-size: 18px;
     color: white;
-    background: #333;
+    background: #4267B2;
     padding: 13px 20px;
     border: none;
 }
 
 .btn-light {
     background: #f4f4f4;
-    color: #333;
+    color: red;
 }
 
 .bg-dark{
-    background: #333;
-    color: white;
+    background: #4267B2;
+    color: yellow;
 }
 
 .bg-light{
     background: white;
-    color: #333;
-
+    color: green;
 }
 
 .bg-primary{
     background: #f7c08a;
-    color: #333;
+    color: orange;
     
 }
 
 .btn:hover {
-    background: #f7c08a;
-    color: #333;
+    background: white;
+    color: #4267B2;
 }
 
 
@@ -96,7 +95,7 @@ p {
 /* navbar */
 
 #navbar{
-    background: #333;
+    background: black;
     color: white;
     overflow: auto;
 }
@@ -121,14 +120,14 @@ p {
 
 #navbar ul li a{
     display: block;
-    padding: 20px;
+    padding: 1rem 1rem 1.45rem;
     text-align: center;
 }
 
 #navbar ul li a:hover,
 #navbar ul li a.current {
-    background: #444;
-    color: #f7c08a;
+    background: white;
+    color: #4267B2;
     cursor: pointer;
 }
 
@@ -137,12 +136,12 @@ p {
 
 #showcase {
     background: url("image/showcase.jpg")center/cover;
-    height: 600px;
+    height: 880px;
     opacity: 0.9;
 }
 
 #showcase .showcase-content{
-    color: #202020;
+    color: black;
     text-align: center;
     padding: 170px;
 }
@@ -266,7 +265,7 @@ p {
 #contact-form input:focus, 
 #contact-form textarea:focus {
     outline: none;
-    border-color: #f7c08a;
+    border-color: white;
 }
 
 #contact-form textarea {
@@ -277,6 +276,16 @@ p {
 #main-footer {
     text-align: center;
     padding: 10px;
-    background: #444;
+    background: black;
     color: white;
 }
+hr {
+    margin-bottom: 5px;
+}
+
+.link {
+    color: white;
+    margin: 2px;
+    padding: 2px;
+}
+
