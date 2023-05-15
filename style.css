@@ -11,7 +11,7 @@ html,body {
 }
 
 a {
-    color: #4267B2;
+    color: white;
     text-decoration: none;
 }
 
@@ -43,19 +43,19 @@ h1,h2,h3 {
     display: inline-block;
     font-size: 18px;
     color: white;
-    background: #4267B2;
+    background: white;
     padding: 13px 20px;
     border: none;
 }
 
 .btn-light {
     background: #f4f4f4;
-    color: red;
+    color: black;
 }
 
 .bg-dark{
-    background: #4267B2;
-    color: yellow;
+    background: white;
+    color: black;
 }
 
 .bg-light{
@@ -64,14 +64,14 @@ h1,h2,h3 {
 }
 
 .bg-primary{
-    background: #f7c08a;
-    color: orange;
+    background: black;
+    color: white    ;
     
 }
 
 .btn:hover {
     background: white;
-    color: #4267B2;
+    color: black;
 }
 
 
@@ -127,7 +127,7 @@ p {
 #navbar ul li a:hover,
 #navbar ul li a.current {
     background: white;
-    color: #4267B2;
+    color: black;
     cursor: pointer;
 }
 
@@ -136,7 +136,7 @@ p {
 
 #showcase {
     background: url("image/showcase.jpg")center/cover;
-    height: 880px;
+    height: 800px;
     opacity: 0.9;
 }
 
@@ -162,13 +162,14 @@ p {
     height: 400px;
 
 }
-/*
+
 #home-info .info-img{
     float: left;
-    width: 50%;
+    width: 40%;
+    background: url("image/.jpg") no-repeat;
     min-height: 100%;
 }
-*/
+
 
 #home-info .info-content {
     float: right;
@@ -181,6 +182,11 @@ p {
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+#gallery {
+    float: left;
+    background: black;
 }
 
 /* FEATURES SECTION */
@@ -196,26 +202,7 @@ p {
 }
 
 
-/* About-Info */
-#about-info .info-right {
-    float: right;
-    width: 50%;
-    min-height: 100%;
-}
-
-#about-info .info-right img {
-    display: block;
-    margin: auto;
-    width: 70%;
-    border-radius: 50%;
-}
-
-#about-info .info-left {
-    float: left;
-    width: 50%;
-    min-height: 100%;
-}
-
+/* about info */
 #testimonials {
     height: 600px;
     background: url("image/test-bg.jpg");
@@ -243,9 +230,7 @@ p {
     border-radius: 50%;
 
 }
-
-/* Contact Form */
-
+/* contact  me */
 #contact-form .form-group {
     margin-bottom: 20px;
 }
@@ -265,18 +250,19 @@ p {
 #contact-form input:focus, 
 #contact-form textarea:focus {
     outline: none;
-    border-color: white;
+    border-color: #f7c08a;
 }
 
 #contact-form textarea {
     height: 200px;
 }
 
+
 /* Footer */
 #main-footer {
     text-align: center;
-    padding: 10px;
-    background: black;
+    padding: 5px;
+    background: black;  
     color: white;
 }
 hr {
